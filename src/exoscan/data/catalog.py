@@ -20,17 +20,18 @@ from exoscan.utils.retry import retry_with_backoff
 
 logger = logging.getLogger("exoscan.catalog")
 
-# Well-known TESS exoplanet systems for benchmarking (TIC IDs verified via NASA Archive).
+# Well-known TESS exoplanet systems for benchmarking.
+# TIC IDs validated against NASA Exoplanet Archive pscomppars (2026-06-25).
 BENCHMARK_SYSTEMS: list[dict[str, Any]] = [
     {
-        "tic_id": "25155310",
+        "tic_id": "150428135",
         "display_name": "TOI-700 b",
         "host_name": "TOI-700",
         "label": "transit",
         "notes": "Earth-sized habitable-zone planet; iconic TESS discovery",
     },
     {
-        "tic_id": "441420236",
+        "tic_id": "410153553",
         "display_name": "LHS 3844 b",
         "host_name": "LHS 3844",
         "label": "transit",
@@ -39,61 +40,61 @@ BENCHMARK_SYSTEMS: list[dict[str, Any]] = [
     {
         "tic_id": "261136679",
         "display_name": "Pi Men c",
-        "host_name": "Pi Men",
+        "host_name": "HD 39091",
         "label": "transit",
         "notes": "Warm Jupiter detected by TESS",
     },
     {
-        "tic_id": "122641481",
+        "tic_id": "279741379",
         "display_name": "HD 21749 b",
-        "host_name": "HD 21749",
+        "host_name": "GJ 143",
         "label": "transit",
-        "notes": "Sub-Neptune with clear TESS transit",
+        "notes": "Sub-Neptune; archive entry pl_name=HD 21749 c",
     },
     {
-        "tic_id": "349577333",
+        "tic_id": "413248763",
         "display_name": "GJ 357 b",
         "host_name": "GJ 357",
         "label": "transit",
         "notes": "Nearby transiting super-Earth",
     },
     {
-        "tic_id": "307210830",
+        "tic_id": "86396382",
         "display_name": "WASP-12 b",
         "host_name": "WASP-12",
         "label": "transit",
         "notes": "Ultra-hot Jupiter; deep transit",
     },
     {
-        "tic_id": "441462736",
+        "tic_id": "441420236",
         "display_name": "AU Mic b",
         "host_name": "AU Mic",
         "label": "transit",
         "notes": "Young star with transiting Neptune",
     },
     {
-        "tic_id": "229093918",
+        "tic_id": "307210830",
         "display_name": "L 98-59 b",
         "host_name": "L 98-59",
         "label": "transit",
         "notes": "Multi-planet M-dwarf system",
     },
     {
-        "tic_id": "260728333",
+        "tic_id": "260128333",
         "display_name": "TOI-1338 b",
-        "host_name": "TOI-1338",
+        "host_name": "TOI-1338 A",
         "label": "transit",
-        "notes": "Circumbinary planet candidate",
+        "notes": "Circumbinary planet",
     },
     {
-        "tic_id": "166620049",
+        "tic_id": "16740101",
         "display_name": "KELT-9 b",
         "host_name": "KELT-9",
         "label": "transit",
         "notes": "Extremely hot Jupiter",
     },
     {
-        "tic_id": "41472818",
+        "tic_id": "125739286",
         "display_name": "NGTS-2 b",
         "host_name": "NGTS-2",
         "label": "transit",

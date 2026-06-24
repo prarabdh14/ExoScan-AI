@@ -1,4 +1,4 @@
-.PHONY: install config-check download-catalogs build-labels phase1
+.PHONY: install config-check download-catalogs build-labels build-benchmark phase1
 
 install:
 	pip install -r requirements.txt
@@ -12,4 +12,7 @@ download-catalogs:
 build-labels:
 	PYTHONPATH=src python scripts/build_training_labels.py
 
-phase1: download-catalogs build-labels
+build-benchmark:
+	PYTHONPATH=src python scripts/build_benchmark_reference.py
+
+phase1: download-catalogs build-labels build-benchmark

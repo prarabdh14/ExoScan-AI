@@ -1,13 +1,13 @@
-tic_id,display_name,host_name,label,period,depth,duration,notes,benchmark_priority,source_catalog,created_at
-25155310,TOI-700 b,TOI-700,transit,7.63,,,Earth-sized habitable-zone planet; iconic TESS discovery,1,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026004+00:00
-441420236,LHS 3844 b,LHS 3844,transit,8.463446,0.249,0.135,Rocky super-Earth with strong TESS transit,2,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026013+00:00
-261136679,Pi Men c,Pi Men,transit,6.2678399,0.026759,0.123001,Warm Jupiter detected by TESS,3,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026018+00:00
-122641481,HD 21749 b,HD 21749,transit,,,,Sub-Neptune with clear TESS transit,4,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026019+00:00
-349577333,GJ 357 b,GJ 357,transit,,,,Nearby transiting super-Earth,5,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026021+00:00
-307210830,WASP-12 b,WASP-12,transit,2.253114,0.0589,0.0420833333333333,Ultra-hot Jupiter; deep transit,6,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026025+00:00
-441462736,AU Mic b,AU Mic,transit,14.2767,0.07629377,0.35714025,Young star with transiting Neptune,7,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026028+00:00
-229093918,L 98-59 b,L 98-59,transit,,,,Multi-planet M-dwarf system,8,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026030+00:00
-260728333,TOI-1338 b,TOI-1338,transit,,,,Circumbinary planet candidate,9,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026031+00:00
-166620049,KELT-9 b,KELT-9,transit,,,,Extremely hot Jupiter,10,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026032+00:00
-41472818,NGTS-2 b,NGTS-2,transit,,,,Hot Jupiter with TESS coverage,11,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026033+00:00
-39699648,HD 77946 b,HD 77946,transit,6.527363,0.04154309,0.1239863166666666,TESS-discovered warm giant,12,ExoScan-AI curated benchmark list,2026-06-24T21:15:59.026037+00:00
+tic_id,display_name,host_name,label,period,depth,duration,notes,benchmark_priority,source_catalog,validated_at
+150428135,TOI-700 b,TOI-700,transit,9.977219,0.00045985249999999997,0.09041666666666666,Earth-sized habitable-zone planet; iconic TESS discovery,1,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:07.852506+00:00
+410153553,LHS 3844 b,LHS 3844,transit,0.462929709,0.0045073269,0.021841666666666665,Rocky super-Earth with strong TESS transit,2,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:09.884106+00:00
+261136679,Pi Men c,HD 39091,transit,6.2678399,0.00026759,0.12300100000000001,Archive pl_name='pi Men c' (display: Pi Men c); Warm Jupiter detected by TESS,3,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:21.739262+00:00
+279741379,HD 21749 b,GJ 143,transit,7.78993,0.0001690703,0.10479166666666667,Archive pl_name='HD 21749 c' (display: HD 21749 b); Sub-Neptune; archive entry pl_name=HD 21749 c,4,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:23.807192+00:00
+413248763,GJ 357 b,GJ 357,transit,3.9306,0.000955,0.05379166666666666,Nearby transiting super-Earth,5,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:25.735322+00:00
+86396382,WASP-12 b,WASP-12,transit,1.091418901,0.0153777921,0.12504166666666666,Ultra-hot Jupiter; deep transit,6,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:27.634325+00:00
+441420236,AU Mic b,AU Mic,transit,8.463446,0.00249,0.135,Young star with transiting Neptune,7,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:29.769486+00:00
+307210830,L 98-59 b,L 98-59,transit,2.253114,0.000589,0.042083333333333334,Multi-planet M-dwarf system,8,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:31.777653+00:00
+260128333,TOI-1338 b,TOI-1338 A,transit,95.4001,0.0026000616,0.48465359999999996,Circumbinary planet,9,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:33.756676+00:00
+16740101,KELT-9 b,KELT-9,transit,1.4811235,0.006770000000000001,0.16316,Extremely hot Jupiter,10,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:35.832519+00:00
+125739286,NGTS-2 b,NGTS-2,transit,4.511164,0.01117,0.19379166666666667,Hot Jupiter with TESS coverage,11,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:37.828598+00:00
+39699648,HD 77946 b,HD 77946,transit,6.527363,0.0004154309,0.12398631666666667,TESS-discovered warm giant,12,NASA Exoplanet Archive pscomppars,2026-06-24T21:35:39.886797+00:00
