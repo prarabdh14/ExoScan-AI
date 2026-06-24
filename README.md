@@ -20,6 +20,7 @@ TESS Loader → Preprocessing → BLS Detection → Features → XGBoost → Par
 
 ## Documentation
 
+- [Phase 1: Dataset Acquisition](docs/phase1_dataset_acquisition.md)
 - [Dataset Strategy](docs/dataset_strategy.md)
 - [Dataset Schema](docs/dataset_schema.md)
 - [Implementation Roadmap](docs/roadmap.md)

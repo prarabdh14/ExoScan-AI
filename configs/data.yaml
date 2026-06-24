@@ -16,12 +16,25 @@ catalogs:
   nasa_exoplanet_archive:
     table: pscomppars
     mission_filter: TESS
+    output_file: nasa_confirmed_planets.csv
   tess_ebs:
-    url: https://www.tessEBcatalog.org
-    notes: Use TESS EBS catalog TIC cross-match for eclipsing binaries
+    source: vizier
+    catalog_id: J/ApJS/258/16/tess-ebs
+    output_file: tess_ebs_catalog.csv
   tess_rotation:
-    table: rotation
-    mission_filter: TESS
+    source: vizier
+    catalog_id: J/ApJS/259/62
+    output_file: rotation_catalog.csv
+  toi_false_positives:
+    table: toi
+    disposition: FP
+    output_file: toi_blend_flags.csv
+  noise_sample:
+    method: tic_field_patches
+    output_file: quiet_star_sample.csv
+    tmag_min: 8.0
+    tmag_max: 13.0
+    patch_radius_deg: 0.12
 
 dataset_builder:
   output_dir: data/features
