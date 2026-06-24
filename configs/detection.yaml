@@ -1,0 +1,17 @@
+# Box Least Squares (BLS) detection settings — implemented in Phase 4
+
+bls:
+  period_min_days: 0.5
+  period_max_days: 20.0
+  period_step_days: null  # null = auto grid from astropy
+  duration_min_days: 0.01
+  duration_max_days: 0.3
+  duration_step_days: 0.001
+  frequency_factor: 5.0
+  minimum_period: 0.5
+  minimum_n_transit: 2
+  minimum_detection_power: 4.0
+
+validation:
+  require_multiple_transits: true
+  max_period_error_fraction: 0.05

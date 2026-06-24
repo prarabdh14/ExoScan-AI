@@ -1,0 +1,19 @@
+# ExoScan-AI base configuration
+
+project:
+  name: ExoScan-AI
+  version: "0.1.0"
+  random_seed: 42
+
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  features: data/features
+  labels: data/labels
+  external: data/external
+  models: models
+  reports: reports
+
+logging:
+  level: INFO
+  format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"

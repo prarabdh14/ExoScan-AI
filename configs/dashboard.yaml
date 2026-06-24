@@ -1,0 +1,18 @@
+# Streamlit dashboard settings — implemented in Phase 10
+
+app:
+  title: "ExoScan-AI"
+  page_icon: "🔭"
+  layout: wide
+
+defaults:
+  demo_catalog: data/labels/demo_catalog.csv
+  default_tic_id: null
+
+cache:
+  ttl_seconds: 3600
+  enable_pipeline_cache: true
+
+theme:
+  primary_color: "#1f77b4"
+  background_color: "#0e1117"

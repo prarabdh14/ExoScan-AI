@@ -1,0 +1,4 @@
+tic_id,display_name,label,notes,demo_priority
+25155310,TOI-700,transit,Hero demo — confirmed planet; update label after catalog pull,1
+307210830,WASP-12,transit,Hot Jupiter — strong transit signal,2
+261136679,Example EB,binary,Replace with TESS EBS catalog TIC,3

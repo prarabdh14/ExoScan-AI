@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Data & models (large files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/features/*
+!data/features/.gitkeep
+data/external/*
+!data/external/.gitkeep
+models/*
+!models/.gitkeep
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Reports (regenerated)
+reports/metrics/*.json
+reports/figures/*.html
+
+# Streamlit
+.streamlit/secrets.toml

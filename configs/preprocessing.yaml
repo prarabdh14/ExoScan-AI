@@ -1,0 +1,33 @@
+# Preprocessing pipeline settings (applied in order)
+
+pipeline:
+  - missing_values
+  - outlier_removal
+  - flux_normalization
+  - savgol_smoothing
+  - median_filter
+
+missing_values:
+  enabled: true
+  max_gap_points: 10
+  interpolation: linear
+
+outlier_removal:
+  enabled: true
+  method: sigma_clip
+  sigma: 5.0
+  max_iterations: 3
+
+flux_normalization:
+  enabled: true
+  method: median
+  detrend_order: 1
+
+savgol_smoothing:
+  enabled: true
+  window_length: 11
+  polyorder: 3
+
+median_filter:
+  enabled: true
+  kernel_size: 5

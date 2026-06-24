@@ -1,0 +1,40 @@
+# TESS data download and dataset acquisition settings
+
+download:
+  mission: TESS
+  quality: default
+  cache_dir: data/raw
+  max_targets_per_batch: 50
+  download_timeout_sec: 120
+
+# Sector selection: null = auto (prefer longest baseline)
+sectors:
+  prefer_all_available: true
+  max_sectors: null
+
+catalogs:
+  nasa_exoplanet_archive:
+    table: pscomppars
+    mission_filter: TESS
+  tess_ebs:
+    url: https://www.tessEBcatalog.org
+    notes: Use TESS EBS catalog TIC cross-match for eclipsing binaries
+  tess_rotation:
+    table: rotation
+    mission_filter: TESS
+
+dataset_builder:
+  output_dir: data/features
+  labels_file: data/labels/training_labels.csv
+  min_observations: 500
+  train_split: 0.70
+  val_split: 0.15
+  test_split: 0.15
+
+# Per-class target counts (MVP minimums)
+class_targets:
+  transit: 80
+  binary: 60
+  blend: 40
+  starspot: 60
+  noise: 80
