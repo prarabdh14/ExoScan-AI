@@ -1,4 +1,4 @@
-tic_id,display_name,label,notes,demo_priority
-25155310,TOI-700,transit,Hero demo — confirmed planet; update label after catalog pull,1
-307210830,WASP-12,transit,Hot Jupiter — strong transit signal,2
-261136679,Example EB,binary,Replace with TESS EBS catalog TIC,3
+tic_id,display_name,host_name,label,period,depth,duration,notes,demo_priority
+150428135,TOI-700 b,TOI-700,transit,9.977219,0.0004598525,0.09041666666666667,Hero demo — validated NASA pscomppars,1
+86396382,WASP-12 b,WASP-12,transit,1.091418901,0.0153777921,0.12504166666666667,Deep hot Jupiter transit,2
+261136679,Pi Men c,HD 39091,transit,6.2678399,0.00026759,0.123001,Warm Jupiter — TESS discovery,3
